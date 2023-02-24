@@ -21,3 +21,12 @@
     transition: 0.3s;
   }
 }
+.ponto {
+  color: var(--cor-P1);
+}
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding: 1.25rem;
+  margin: 0 auto;
+}
