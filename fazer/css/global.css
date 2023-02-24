@@ -1,0 +1,23 @@
+/*   BOTÃO   */
+.btn {
+  padding: 1rem 2rem;
+  display: inline-block;
+  background: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
+  border-radius: 0.3rem;
+  font-size: 1.25rem;
+  color: var(--cor-P5);
+  font-weight: bolder;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.btn:hover {
+  background: linear-gradient(180deg, #bd8e04 0%, #f2a50c 100%);
+}
+@media (max-width: 650px) {
+  .btn {
+    padding: 0.75rem 1.2rem;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+}

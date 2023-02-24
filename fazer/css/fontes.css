@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap");
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.titulo-principal {
+  font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+.subtitulo-1 {
+  font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+.subtitulo-2 {
+  font: 500 2rem/1.25 "Roboto", sans-serif;
+}
+
+.texto-grande-2 {
+  font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
+.texto-grande-2b {
+  font: 500 1.5rem/1.5 "Roboto", sans-serif;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+.texto-grande {
+  font: 400 1.5rem/1.5 "Poppins", sans-serif;
+}
+.texto-normal {
+  font: 500 1.125/135 "Poppins", sans-serif;
+}
+.texto-normal-b {
+  font: 600 1.125/135 "Poppins", sans-serif;
+}
+.texto-normal-2 {
+  font: 500 1.125/135 "Roboto", sans-serif;
+}
+.texto-medio {
+  font: 400 1rem/1.5 "Poppins", sans-serif;
+}
+.texto-medio2 {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+.texto-pequeno {
+  font: 400 0.75rem/1.35 "Poppins", sans-serif;
+}
+.texto-pequeno2 {
+  font: 400 0.875rem/1.43 "Roboto", sans-serif;
+}
+@media (max-width: 1150px) {
+  .titulo-principal {
+    font-size: 3rem;
+    transition: 0.3s;
+  }
+  .texto-grande,
+  .texto-grande-2,
+  .texto-grande-2b {
+    font-size: 1.12rem;
+    transition: 0.3s;
+  }
+}
+
+@media (max-width: 850px) {
+  .titulo-principal {
+    font-size: 2rem;
+    transition: 0.3s;
+  }
+  .subtitulo-1,
+  .subtitulo-2 {
+    font-size: 1.5rem;
+  }
+}

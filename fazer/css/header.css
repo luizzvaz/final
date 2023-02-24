@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: #000000;
+  background-color: var(--cor-12);
 }
 .header {
   display: flex;
@@ -20,27 +20,25 @@
   flex-wrap: wrap;
 }
 .header-menu a {
-  color: #ffffff;
-  font-size: 1.125rem;
-  line-height: 1.25rem;
+  color: var(--cor-0);
   padding: 1rem 0;
-  text-transform: uppercase;
   display: inline-block;
   position: relative;
+  text-transform: capitalize;
 }
 .header-menu a::after {
   content: "";
   display: block;
   height: 2px;
   width: 0%;
-  background-color: #ffffff;
+  background-color: var(--cor-0);
   margin-top: 0.25rem;
   position: absolute;
-  transition: linear 0.6s;
+  transition: linear 0.4s;
 }
 
 .header-menu a:hover {
-  color: #ffbb00;
+  color: var(--cor-5);
   transition: linear 1s;
 }
 .header-menu a:hover:after {
@@ -49,10 +47,10 @@
 @media (max-width: 800px) {
   .header-menu a {
     padding: 0.8rem 1rem;
-    background-color: #111111;
+    background-color: var(--cor-11);
     border-radius: 0.25rem;
     gap: 1rem;
-    transition: linear 1s;
+    transition: linear 0.5s;
   }
   .header-menu a::after {
     display: none;
