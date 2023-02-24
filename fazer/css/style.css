@@ -6,6 +6,8 @@
 /*home*/
 @import "intro-index.css";
 @import "bicicletas.css";
+@import "tecnologia.css";
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;

@@ -6,7 +6,12 @@
   display: flex;
   gap: 2.5rem;
   max-width: 1400px;
+  padding: 0 1.25rem 1.25rem 1.25rem;
   margin: 0 auto;
+  overflow: auto;
+}
+.bicicletas-lista ul li {
+  min-width: 280px;
 }
 .bicicletas-lista h2 {
   margin-bottom: 2rem;
@@ -29,8 +34,24 @@
   height: 8px;
   background-color: var(--cor-P1);
   display: inline-block;
+  transition: linear 0.3s;
+}
+.bicicletas-lista a:hover h3::before {
+  width: 20px;
 }
 .bicicletas-lista li span {
   padding-left: 1.25rem;
   color: var(--cor-c7);
+  transition: 0.2s;
+}
+.bicicletas-lista a:hover span {
+  color: var(--cor-P1);
+}
+@media (max-width: 850px) {
+  .bicicletas-lista {
+    padding-bottom: 3.75rem;
+  }
+  .bicicletas-lista ul {
+    gap: 1.25rem;
+  }
 }
