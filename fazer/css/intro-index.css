@@ -1,0 +1,46 @@
+.intro-bg {
+  background-color: #000000;
+  box-shadow: inset 0 -120px 0 #ffffff;
+}
+.intro {
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 2.5rem;
+}
+.intro-conteudo {
+  align-self: end;
+  padding-bottom: 12.5rem;
+}
+.intro h1 {
+  font-size: 4rem;
+  line-height: 1.125;
+  margin-bottom: 2rem;
+}
+.intro h1 span {
+  color: #ffbb00;
+}
+.intro p {
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #b2b2b2;
+}
+.btn {
+  padding: 1rem 2rem;
+  display: inline-block;
+  background: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
+  border-radius: 0.3rem;
+  font-size: 1.25rem;
+  color: #332200;
+  font-weight: bolder;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.btn:hover {
+  background: linear-gradient(180deg, #bd8e04 0%, #f2a50c 100%);
+}
+.intro-img img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}

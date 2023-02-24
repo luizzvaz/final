@@ -1,16 +1,18 @@
 .header-bg {
   background-color: #000000;
 }
-.container {
-  margin: 0 auto;
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding: 1.25rem;
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
+}
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding: 1.25rem;
+  margin: 0 auto;
 }
 .header-menu {
   display: flex;
@@ -38,7 +40,7 @@
 }
 
 .header-menu a:hover {
-  color: rgb(224, 203, 14);
+  color: #ffbb00;
   transition: linear 1s;
 }
 .header-menu a:hover:after {
