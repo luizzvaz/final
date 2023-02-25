@@ -1,0 +1,60 @@
+.seguros-bg {
+  background-color: var(--cor-11);
+  height: 800px;
+}
+.seguros-bg div > h2 {
+  color: var(--cor-1);
+  grid-column: 1/-1;
+  margin-bottom: 2.5rem;
+}
+.seguros {
+  display: grid;
+  padding: 3.75rem 0;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2.5rem;
+}
+.seguro-item {
+  background: var(--cor-12);
+  padding: 2rem 2rem 2rem 3.75rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+.seguro-item h3 {
+  color: var(--cor-6);
+  margin-bottom: 2rem;
+}
+.seguro-item .ouro {
+  color: var(--cor-P1);
+}
+.seguro-item span {
+  color: var(--cor-0);
+  display: block;
+  grid-column: 2;
+  text-align: right;
+}
+.seguro-item span:last-child {
+  color: var(--cor-6);
+}
+.seguro-item ul {
+  color: var(--cor-0);
+  grid-column: 1/-1;
+  padding-bottom: 2rem;
+}
+.seguro-item li + li {
+  margin-top: 1.25rem;
+}
+.seguro-item li {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.seguro-item li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 13px;
+  height: 8px;
+  background-image: url(".././img/icones/lista.svg");
+  left: -21px;
+}

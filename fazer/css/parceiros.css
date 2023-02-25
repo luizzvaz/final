@@ -6,7 +6,7 @@
   margin-bottom: 3.75rem;
 }
 .parceiros > ul {
-  max-width: 1400;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 1.25rem;
   display: grid;
@@ -38,6 +38,9 @@
   }
   .parceiros > ul {
     grid-template-columns: 1fr 1fr;
+  }
+  .parceiros ul li {
+    padding: 1.25rem;
   }
   .parceiros ul li:nth-child(n + 3) {
     border-top: 2px solid var(--cor-2);

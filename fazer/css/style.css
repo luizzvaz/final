@@ -1,13 +1,17 @@
+/* utilidades global */
 @import "global.css";
 @import "cores.css";
 @import "fontes.css";
-/*menu*/
+/*global -- menu e footer*/
 @import "header.css";
+@import "footer.css";
 /*home*/
 @import "intro-index.css";
 @import "bicicletas.css";
 @import "tecnologia.css";
 @import "parceiros.css";
+@import "depoimento.css";
+@import "seguros.css";
 
 body {
   margin: 0;
@@ -19,7 +23,8 @@ h2,
 h3,
 p,
 li,
-a {
+a,
+blockquote {
   margin: 0;
   padding: 0;
   text-decoration: none;

@@ -10,10 +10,20 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  width: max-content;
 }
 .btn:hover {
   background: linear-gradient(180deg, #bd8e04 0%, #f2a50c 100%);
 }
+.sec {
+  background: linear-gradient(180deg, var(--cor-10) 0%, var(--cor-9) 100%);
+  color: var(--cor-4);
+}
+.sec:hover {
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+
 @media (max-width: 650px) {
   .btn {
     padding: 0.75rem 1.2rem;
