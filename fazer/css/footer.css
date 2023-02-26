@@ -1,0 +1,11 @@
+.footer-bg {
+  background-color: var(--cor-12);
+  color: var(--cor-1);
+}
+.footer {
+  display: grid;
+  grid-template-columns: 3fr 5fr 4fr;
+}
+.footer-contato{
+    
+}
