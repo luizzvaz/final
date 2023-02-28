@@ -1,0 +1,19 @@
+.titulo-bg {
+  background-color: var(--cor-10);
+}
+.termos-conteudo {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.termos-conteudo h2 {
+  font-weight: 600;
+  padding-bottom: 1.25rem;
+}
+.termos-conteudo p {
+  color: var(--cor-10);
+  padding-bottom: 1rem;
+  max-width: 80ch;
+}
+.termos-conteudo p + h2 {
+  margin-top: 2rem;
+}

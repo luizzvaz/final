@@ -31,6 +31,23 @@
     transition: 0.3s;
   }
 }
+.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 0.75rem;
+  background-image: url("../img/icones/seta.svg");
+  transition: 0.5s;
+}
+.seta:hover::after {
+  transform: translateX(20px);
+}
+.btn.seta {
+  display: flex;
+  align-items: center;
+}
+
 .ponto {
   color: var(--cor-P1);
 }
@@ -39,4 +56,22 @@
   max-width: 1200px;
   padding: 20px;
   margin: 0 auto;
+}
+.titulo-bg {
+  background-color: var(--cor-10);
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+.titulo-page p {
+  margin-bottom: 0.5rem;
+  color: var(--cor-5);
+}
+.titulo-page h1 {
+  color: var(--cor-0);
+}
+@media (max-width: 900px) {
+  .titulo-bg {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
 }

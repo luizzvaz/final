@@ -6,12 +6,15 @@
 @import "header.css";
 @import "footer.css";
 /*home*/
-@import "intro-index.css";
-@import "bicicletas.css";
-@import "tecnologia.css";
-@import "parceiros.css";
-@import "depoimento.css";
-@import "seguros.css";
+@import "home/intro-index.css";
+@import "home/bicicletas.css";
+@import "home/tecnologia.css";
+@import "home/parceiros.css";
+@import "home/depoimento.css";
+@import "home/seguros.css";
+/*termos e condições*/
+@import "temos-page/termos.css";
+@import "biciletas-css/bicicletas-page.css";
 
 body {
   margin: 0;
