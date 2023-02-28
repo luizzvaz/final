@@ -12,9 +12,12 @@
 @import "home/parceiros.css";
 @import "home/depoimento.css";
 @import "home/seguros.css";
-/*termos e condições*/
+/*termos e condições page*/
 @import "temos-page/termos.css";
 @import "biciletas-css/bicicletas-page.css";
+/*seguros-page*/
+@import "seguros-page/vantagens.css";
+@import "seguros-page/perguntas.css";
 
 body {
   margin: 0;
